@@ -1,6 +1,5 @@
 Flask
 tensorflow
 numpy
-pickle
 pandas
 scikit-learn
