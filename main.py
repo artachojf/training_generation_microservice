@@ -92,4 +92,4 @@ def process_continuous_output(output):
     return {'distance': int(distance), 'seconds': int(time), 'hr': int(output[2])}
 
 if __name__ == '__main__':
-    app.run(port=4000, debug=True)
+    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
