@@ -89,7 +89,7 @@ def process_continuous_output(output):
     distance = output[0]
     pace = output[1]
     time = ((distance / 1000) * pace) * 60
-    return {'distance': int(distance), 'seconds': int(time), 'hr': int(output[2])}
+    return {'distance': int(distance), 'seconds': int(time), 'times': 0, 'hr': int(output[2])}
 
 if __name__ == '__main__':
-    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
+    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 4001)))
