@@ -5,11 +5,11 @@ import os
 import numpy as np
 
 INTERVAL_NEURAL_NETWORK = 'interval_neural_network.keras'
-INTERVAL_INPUT_SCALER = 'input_scaler_interval.pkl'
-INTERVAL_OUTPUT_SCALER = 'output_scaler_interval.pkl'
-CONTINUOUS_NEURAL_NETWORK = 'neural_network.keras'
-CONTINUOUS_INPUT_SCALER = 'input_scaler.pkl'
-CONTINUOUS_OUTPUT_SCALER = 'output_scaler.pkl'
+INTERVAL_INPUT_SCALER = 'interval_neural_network_input_scaler.pkl'
+INTERVAL_OUTPUT_SCALER = 'interval_neural_network_output_scaler.pkl'
+CONTINUOUS_NEURAL_NETWORK = 'continuous_neural_network.keras'
+CONTINUOUS_INPUT_SCALER = 'continuous_neural_network_input_scaler.pkl'
+CONTINUOUS_OUTPUT_SCALER = 'continuous_neural_network_output_scaler.pkl'
 DECISION_TREE = 'decision_tree.pkl'
 FILE_PATH = os.path.dirname(os.path.abspath(__file__))
 
